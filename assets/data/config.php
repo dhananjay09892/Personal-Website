@@ -1,6 +1,8 @@
 <?php 
 
-// Profile
+// Profile used 
+$resume_view = "https://dhananjay09892.github.io/resume/Resume.pdf";
+$resume_download = "https://raw.githubusercontent.com/dhananjay09892/resume/main/Resume.pdf";
 $first_name = "Dhananjay";
 $last_name = "Patel";
 $designation = "Software Engineer";
@@ -22,9 +24,12 @@ $services = array(
     ),
 );
 // $about = "As a software developer currently employed in a company based in Ahmedabad, India, I am actively seeking an opportunity that can enhance my programming skills, logical aptitude, and attention to detail. I aspire to develop and refine my software development abilities further, and I am keen to explore avenues that can aid me in achieving this objective.";
-$about = "A dedicated computer science graduate with a passion for agile development and API creation. Equipped with strong skills in Python, PHP, React, Node.js, and SQL, focused on delivering impactful software solutions and contributing to innovative projects.";
+$about = "Results-oriented, motivated Software Developer proficient in API creation, Game development, Data scraping, Web
+development, and plugin/theme editing, among others. Programming languages used: Python, PHP, Node.js, and SQL. Strong
+skills in DSA ensure efficient and optimized solutions. Critical thinking in problem-solving is very structured and analytical.";
+// $about = "A dedicated computer science graduate with a passion for agile development and API creation. Equipped with strong skills in Python, PHP, React, Node.js, and SQL, focused on delivering impactful software solutions and contributing to innovative projects.";
 $birthDate = "08/09/1992";
-$address = "Bridgeport, CT 06604";
+$address = "New Jersey, NJ 07726, United States";
 $phone = "+ 1 (732)-558-4709";
 $phone_link = "tel:+ 1 (732)-558-4709";
 $email = "dhananjay09892@gmail.com";
@@ -36,6 +41,10 @@ $link_linkedin = "https://www.linkedin.com/in/dhananjaypatel09/";
 $link_github = "https://github.com/dhananjay09892";
 $link_leetcode = "https://leetcode.com/dhananjay09892/";
 $link_hackerrank = "https://www.hackerrank.com/profile/dhananjay09892";
+
+
+
+// not used
 $cv = "https://pateldhananjay.com/Dhananjay_Patel_Resume.pdf";
 $profile = array(
     "first_name" => $first_name,
@@ -71,10 +80,12 @@ $skills = array(
 $experience = array(
     array(
         "title" => "Graduate Teaching Assistant",
+        "link" => "https://www.sacredheart.edu/",
         "company" => "Sacred Heart University",
         "location" => "Fairfield County, Connecticut, United States",
-        "date" => "Apr 2024 - Present",
+        "date" => "Apr 2024 - Dec 2024",
         "description" => array(
+            // "title" => "As a dedicated Graduate Teaching Assistant, I provide support in Advanced Data Structures, VB.NET, and Statistics for Data Science. My role focuses on enhancing student learning through personalized assistance and resource development.",
             "title" => "As a dedicated Graduate Teaching Assistant, I provide support in Advanced Data Structures, VB.NET, and Statistics for Data Science. My role focuses on enhancing student learning through personalized assistance and resource development.",
             "points" => array(
                 "Developed comprehensive project examples to improve student understanding.",
@@ -85,6 +96,12 @@ $experience = array(
             ),
         ),
         "short" => "Graduate Teaching Assistant for Data Structures, VB.NET, and statistics for data science. Developed comprehensive project examples to aid student learning and provided one-on-one support to troubleshoot and resolve coding errors. Collaborated with faculty to ensure seamless software setup within the university’s environment. Created detailed, user-friendly documentation for ongoing and future student use, enhancing the learning resources available. Contributed to course material development and supported the professor in managing course logistics, including software maintenance and updates.",
+        "short_points" =>array(
+            "Mentored 100+ students in Data Structures, VB.NET, and Statistics, providing guidance and support to enhance their understanding and performance.",
+            "Developed 25+ projects, solving complex challenges in VB.NET and C++ to ensure seamless functionality and quality.",
+            "Delivered instruction on algorithms and data structures, emphasizing practical implementation and problem-solving
+            proficiency.",
+        )
     ),
     array(
         "title" => "Senior Software Developer",
