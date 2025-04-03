@@ -1,8 +1,8 @@
 <?php 
 
 // Profile used 
-$resume_view = "https://dhananjay09892.github.io/resume/Resume.pdf";
-$resume_download = "https://raw.githubusercontent.com/dhananjay09892/resume/main/Resume.pdf";
+$resume_view = "https://dhananjay09892.github.io/Career-Resources/Resume.pdf";
+$resume_download = "https://raw.githubusercontent.com/dhananjay09892/Career-Resources/main/Resume.pdf";
 $first_name = "Dhananjay";
 $last_name = "Patel";
 $designation = "Software Engineer";
